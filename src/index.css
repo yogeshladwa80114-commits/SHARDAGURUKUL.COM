@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --color-saffron: #FF9933;
+  --color-navy: #000080;
+  --color-navy-light: #0000A0;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply font-sans text-slate-900 bg-white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-saffron text-white font-semibold rounded-lg shadow-lg hover:bg-orange-600 transition-all active:scale-95;
+  }
+  .btn-secondary {
+    @apply px-6 py-3 bg-navy text-white font-semibold rounded-lg shadow-lg hover:bg-navy-light transition-all active:scale-95;
+  }
+  .btn-outline {
+    @apply px-6 py-3 border-2 border-navy text-navy font-semibold rounded-lg hover:bg-navy hover:text-white transition-all active:scale-95;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap');
