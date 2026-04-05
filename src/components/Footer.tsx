@@ -83,7 +83,7 @@ export const Footer = () => {
         <a href="https://wa.me/919728599019" className="w-14 h-14 bg-green-500 text-white rounded-full flex items-center justify-center shadow-2xl animate-bounce">
           <MessageCircle size={30} />
         </a>
-        <a href="tel:+919728599019" className="w-14 h-14 bg-navy text-white rounded-full flex items-center justify-center shadow-2xl">
+        <a href="tel: +918607628274" className="w-14 h-14 bg-navy text-white rounded-full flex items-center justify-center shadow-2xl">
           <Phone size={28} />
         </a>
       </div>
