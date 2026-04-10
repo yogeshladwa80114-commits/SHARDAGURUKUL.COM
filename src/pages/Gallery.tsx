@@ -5,7 +5,7 @@ const galleryImages = [
   { url: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&q=80&w=800', category: 'Campus' },
   { url: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=80&w=800', category: 'Classrooms' },
   { url: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&q=80&w=800', category: 'Events' },
-  { url: 'https://images.unsplash.com/photo-1523050335456-cbbef71e22b1?auto=format&fit=crop&q=80&w=800', category: 'Activities' },
+  { IMG_20221206_095034_1.webp', category: 'Activities' },
   { url: 'https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&q=80&w=800', category: 'Campus' },
   { url: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=80&w=800', category: 'Classrooms' },
   { url: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&q=80&w=800', category: 'Events' },
